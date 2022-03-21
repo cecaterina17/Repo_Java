@@ -181,7 +181,7 @@ public class HW5 {
             System.out.println("Invalid Student Score Entered. Allowed 0-100");
         } else if (maxScore != 100) {
             System.out.println("Invalid Max Score Entered. Allowed is 0-100");
-        } else if (percentage >= 90.99 && percentage <= 100) {
+        } else if (percentage >= 91 && percentage <= 100) {
             System.out.println("Grade A");
         } else if (percentage >= 81 && percentage <= 90.99) {
             System.out.println("Grade B");
